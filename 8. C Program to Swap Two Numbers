@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    float a, b, temp;
+
+    printf("Enter first number: ");
+    scanf("%f %f", &a,&b);
+    temp = a;
+    a = b;
+    b = temp;
+
+printf("After swapping: a = %.2f, b = %.2f\n", a, b);
+
+return 0;
+}
